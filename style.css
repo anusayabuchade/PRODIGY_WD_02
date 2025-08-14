@@ -76,6 +76,24 @@ button:active{
     box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.4 );
 }
 
+#laps {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    width: 200px;
+    text-align: left;
+}
+
+#laps li {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: aqua;
+    box-shadow: 0 0 8px aqua;
+}
+
 @keyframes glow{
     0%, 100%{
         text-shadow: 0 0 10px #00c6ff, 0 0 20px #00c6ff, 0 0 30px #00c6ff;
